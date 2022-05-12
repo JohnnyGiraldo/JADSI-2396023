@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@200;500&family=Kufam:wght@500&family=Spartan:wght@200;500&display=swap');
+
+h3 {
+    background: linear-gradient(to right, rgb(88, 1, 170), rgb(66, 66, 66));
+    text-align: center;
+    font-size: 7rem;
+    font-size: 700;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 800px) {
+    h3 {
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@200;500&family=Kufam:wght@500&family=Spartan:wght@200;500&display=swap');
+
+    body {    
+        font-family: 'Kanit', sans-serif; 
+        color: black;   
+    }
+
+    main {        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    header {
+        margin: 2rem;
+    }
+
+    header nav {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header nav a:link,
+    header nav a:visited {
+        background-color: #ccc;
+        padding: 1rem 2rem;
+        color: #333;
+        text-decoration: none;
+
+    }
+
+    header nav a:hover {
+        background-color: #333;
+        color: #ccc;
+    }
+
+    header nav a.active {
+        background-color: rgb(92, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+
+    section {        
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    section h1 {
+        border-bottom: 2px solid rgb(92,0,0);
+        text-align: center;
+        font-size: 4rem;
+        margin: 0;
+    }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <nav>
+                <a href="../index.html">Home</a>
+                <a class="active" href="">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section>
+            <h1>About</h1>
+            <img src="../images/about.png" alt="">
+        </section>
+    </main>
+</body>
+</html>
