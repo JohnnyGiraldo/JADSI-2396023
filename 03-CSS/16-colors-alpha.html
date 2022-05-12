@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/master.css" />
+    <title>16-Colors alpha</title>
+    <style>
+        figure {
+            background: url(../imgs/yoshi.jpg) no-repeat center;
+            background-size: contain;
+            margin: 0 auto;
+            height: 500px;
+            width: 100%;
+        }
+
+        figure div {
+            background-color: #f00;
+            height: 20%;
+        }
+
+        figure div:nth-child(1) {
+            background-color: #00000033;
+        }
+
+        figure div:nth-child(2) {
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        figure div:nth-child(3) {
+            background-color: hsla(0, 0%, 0%, 0.6);
+        }
+
+        figure div:nth-child(4) {
+            background-color: #000000bb;
+        }
+
+        figure div:nth-child(5) {
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1><a href="index.html">🏠</a>16-Colors alpha</h1>
+        </header>
+        <section>
+            <figure>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </figure>
+        </section>
+    </main>
+</body>
+
+</html>

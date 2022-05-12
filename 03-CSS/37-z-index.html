@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z Index</title>
+    <link rel="stylesheet" href="css/master.css">
+    <style>
+        section div.animals div {
+            border: 2px solid #fff;
+            height: 100px;
+            font-size: 4rem;
+            text-align: center;
+            position: relative;
+            width: 160px;
+        }
+
+        section div.animals {
+            margin: 20px auto;
+            width: 280px;
+        }
+
+        section div.box1 {
+            background-color: blueviolet;
+            z-index: 3;
+        }
+
+        section div.box2 {
+            background-color: aqua;
+            top: -50px;
+            left: 50px;
+            z-index: 2;
+        }
+
+        section div.box3 {
+            background-color: rgb(255, 0, 179);
+            top: -100px;
+            left: 100px;
+            z-index: 1;
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1><a href="index.html"> ⇠ </a> Z Index</h1>
+        </header>
+        <section>
+            <div class="animals">
+                <div class="box1">🐈</div>
+                <div class="box2">🐼</div>
+                <div class="box3">🐕</div>
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Absolute</title>
+    <link rel="stylesheet" href="css/master.css">
+    <style>
+        div.parentbox {
+            border: 2px solid rgb(2, 132, 255);
+            margin: 0 auto;
+            width: 360px;
+            padding: 10px;
+            position: relative;
+        }
+
+        div.parentbox div {
+            background-color: lightskyblue;
+            border: 2px solid rgb(0, 110, 236);
+            padding: 10px;
+            display: inline-block;
+            font-size: 3rem;
+            text-align: center;
+            line-height: 4.5rem;
+            height: 74px;
+            margin: 8px;
+            width: 70px;
+        }
+
+        div.parentbox div.box4 {
+            width: 318px;
+        }
+
+        div.parentbox div.box2 {
+            background-color: aqua;
+            position: absolute;
+            top: 50px;
+            left: 220px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1><a href="index.html"> ⇠ </a> Position Absolute</h1>
+        </header>
+        <section>
+            <div class="parentbox">
+                <div class="box1">♾</div>
+                <div class="box2">⚕</div>
+                <div class="box3">🕉</div>
+                <div class="box4">☯</div>
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>

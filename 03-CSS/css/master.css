@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@200;500&family=Kufam:wght@500&family=Spartan:wght@200;300;400;500;600;700;800;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url(../img/css3.jpg) no-repeat center;
+    background-size: cover;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+    min-height: 100vh;
+}
+
+main {
+    margin: 5rem auto;
+    width: 31rem;
+
+}
+
+header h1 {
+    background-color: #00000055;
+    color: rgb(228, 228, 228);
+    padding: 3rem;
+    text-align: center;
+    border-bottom: 4px solid rgb(255, 255, 255);
+}
+
+header h1 a:link,
+header h1 a:visited {
+    background-color: #20003d88;
+    color: #fff;
+    float: left;
+    padding: 0 3px;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+
+header h1 a:hover {
+    background-color: #000000bb;
+    transform: translateX(-20px);
+}
+
+section {
+    background-color: #ffffffbb;
+    color: #333;
+    padding: 2rem;
+    min-height: 20rem
+}
