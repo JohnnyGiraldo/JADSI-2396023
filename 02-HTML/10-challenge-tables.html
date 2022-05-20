@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
-    <link rel="stylesheet" href="css/master.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/master.css" />
+    <title>10-Challenge Table</title>
     <style>
         table {
             border-collapse: collapse;
             margin: 0 auto;
         }
 
+        table th,
         table td {
-            border: 2px solid #333;
+            border: 2px solid black;
             font-size: 2rem;
             font-weight: 800;
             height: 4rem;
@@ -27,32 +28,82 @@
 <body>
     <main>
         <header>
-            <h1><a href="index.html"> ⇠ </a> tablas</h1>
+            <h1><a href="index.html">⏪</a>10-Challenge Table</h1>
         </header>
-        <table border="1">
-            <tr>
-                <td>😛</td>
-            </tr>
-            <td rowspan="5">😛</td>
-            <td colspan="1">😛</td>
-            </tr>
-            <tr>
-                <td rowspan="4">😛</td>
-                <td colspan="1">😛</td>
-            </tr>
-            <tr>
-                <td rowspan="3">😛</td>
-                <td colspan="1">😛</td>
-            </tr>
-            <tr>
-                <td rowspan="2">😛</td>
-                <td colspan="1">😛</td>
-            </tr>
-            <tr>
-                <td rowspan="1">😛</td>
-                <td>😛</td>
-            </tr>
-        </table>
+        <section>
+            <table border="2">
+                <tr>
+                    <th>X</th>
+                    <th colspan="5" style="background-color: #bdef09"></th>
+                </tr>
+                <tr>
+                    <th rowspan="5" style="background-color: green"></th>
+                    <th>X</th>
+                    <th colspan="4" style="background-color: #bdef09"></th>
+                </tr>
+                <tr>
+                    <th rowspan="4" style="background-color: green"></th>
+                    <th>X</th>
+                    <th colspan="3" style="background-color: #bdef09"></th>
+                </tr>
+                <tr>
+                    <th rowspan="3" style="background-color: green"></th>
+                    <th>X</th>
+                    <th colspan="2" style="background-color: #bdef09"></th>
+                </tr>
+                <tr>
+                    <th rowspan="2" style="background-color: green"></th>
+                    <th>X</th>
+                    <th style="background-color: #bdef09"></th>
+                </tr>
+                <tr>
+                    <th rowspan="5" style="background-color: green"></th>
+                    <th>X</th>
+                </tr>
+            </table>
+            <br><br>
+            <!-- -->
+            <table border="2">
+                <tr>
+                    <th style="background-color: #a656f1">🍏</th>
+                    <th colspan="5"></th>
+                </tr>
+                <tr>
+                    <th>X</th>
+                    <th style="background-color: #a656f1">🍏</th>
+                    <th colspan="5"></th>
+                </tr>
+                <tr>
+                    <th style="background-color: #ff0000">🍇</th>
+                    <th>X</th>
+                    <th style="background-color: #a656f1">🍏</th>
+                    <th colspan="4"></th>
+                </tr>
+                <tr>
+                    <th>X</th>
+                    <th style="background-color:  #ff0000">🍇</th>
+                    <th>X</th>
+                    <th style="background-color: #a656f1">🍏</th>
+                    <th colspan="2"></th>
+                </tr>
+                <tr>
+                    <th style="background-color: #09c820">🍓</th>
+                    <th>X</th>
+                    <th style="background-color: #ff0000">🍇</th>
+                    <th>X</th>
+                    <th style="background-color: #a656f1">🍏</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>X</th>
+                    <th style="background-color: #09c820">🍓</th>
+                    <th>X</th>
+                    <th style="background-color:  #ff0000">🍇</th>
+                    <th>X</th>
+                    <th style="background-color:  #a656f1">🍏</th>
+                </tr>
+            </table>
+        </section>
     </main>
 </body>
 
