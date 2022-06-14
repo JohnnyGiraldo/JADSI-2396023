@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {   background-color: black;
+}
+title { 
+    background-image: url() no-repeat;
+    background-position: -530px -6px;
+    border: 2px solid #fff;
+    display: inline-block;
+    height: 87.5%;
+    margin: 15px auto;
+    width: 30%;
+  }
