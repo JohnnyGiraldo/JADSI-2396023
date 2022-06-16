@@ -8,7 +8,89 @@
     <title>Parallax</title>
     <link rel="stylesheet" href="CSS/mastercss3.css">
     <style>
-
+        figure.parallax {
+            height: 576px;
+            overflow: hidden;
+            position: relative;
+            margin: 4rem auto;
+            width: 1024px;
+        }
+        
+        figure.parallax div {
+            height: 567px;
+            position: absolute;
+            width: calc(1024px * 2);
+        }
+        
+        div.layer8 {
+            background: url(imgs/layer_08.png) repeat-x;
+            z-index: 1;
+        }
+        
+        div.layer7 {
+            background: url(imgs/layer_07.png) repeat-x;
+            z-index: 2;
+            animation: animparallax 70s linear infinite;
+        }
+        
+        div.layer6 {
+            background: url(imgs/layer_06.png) repeat-x;
+            z-index: 3;
+            animation: animparallax 60s linear infinite;
+        }
+        
+        div.layer5 {
+            background: url(imgs/layer_05.png) repeat-x;
+            z-index: 4;
+            animation: animparallax 50s linear infinite;
+        }
+        
+        div.layer4 {
+            background: url(imgs/layer_04.png) repeat-x;
+            z-index: 5;
+            animation: animparallax 40s linear infinite;
+        }
+        
+        div.layer3 {
+            background: url(imgs/layer_03.png) repeat-x;
+            z-index: 6;
+            animation: animparallax 30s linear infinite;
+        }
+        
+        div.layer2 {
+            background: url(imgs/layer_02.png) repeat-x;
+            z-index: 7;
+            animation: animparallax 20s linear infinite;
+        }
+        
+        div.layer1 {
+            background: url(imgs/layer_01.png) repeat-x;
+            z-index: 8;
+            animation: animparallax 10s linear infinite;
+        }
+        
+        figure.parallax div.runner {
+            background: url(imgs/running.gif) no-repeat;
+            background-size: contain;
+            bottom: 120px;
+            height: 100px;
+            left: 50%;
+            width: 100px;
+            transform: translate(-50%);
+            z-index: 9;
+        }
+        
+        @media (max-whidth:1360px) {
+            figure.parallax {
+                width: 600px;
+            }
+        }
+        
+        @keyframes animparallax {
+            100% {
+                background-position: -2048px;
+            }
+        }
     </style>
 </head>
 
@@ -17,9 +99,21 @@
         <header>
             <h1><a href="index.html">⬅</a>Parallax</h1>
         </header>
-        <section>
-            <figure class="title">JAG</figure>
-        </section>
+        <main>
+            <section>
+                <figure class="parallax">
+                    <div class="layer8"></div>
+                    <div class="layer7"></div>
+                    <div class="layer6"></div>
+                    <div class="layer5"></div>
+                    <div class="layer4"></div>
+                    <div class="layer3"></div>
+                    <div class="layer2"></div>
+                    <div class="layer1"></div>
+                    <div class="runner"></div>
+                </figure>
+            </section>
+        </main>
     </main>
 </body>
 

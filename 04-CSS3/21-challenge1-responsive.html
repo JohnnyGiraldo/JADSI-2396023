@@ -10,6 +10,7 @@
         figure.title {
             background: url(imgs/one-punh-man.png);
             background-repeat: no-repeat;
+            background-size: cover;
             width: 732px;
             height: 180px;
             margin: 0 auto;
@@ -23,29 +24,86 @@
             margin: 15px auto;
         }
         
-        section.sataima div.red {
-            background-image: url(imgs/saitama-rojo.jpg);
-            background-repeat: no-repeat;
+        div.red {
+            background: url(imgs/saitama-rojo.jpg) no-repeat;
+            background-position: -56px -1px;
+            font-size: 150%;
             margin-left: 20px;
+            position: relative;
         }
         
-        section.sataima div.green {
-            background-image: url(imgs/sataima-verde\ .png);
+        div.green {
+            background: url(imgs/sataima-verde.png) no-repeat;
             background-repeat: no-repeat;
+            background-position: -76px 0px;
+            font-size: 150%;
             margin-left: 20px;
+            position: relative;
         }
         
-        section.sataima div h4 {
-            background-color: rgb(28, 29, 31);
-            opacity: 0.7;
-            font-size: 1.3rem;
-            padding: 15px;
+        div h4 {
+            background-position: bottom;
+            background-color: rgba(7, 4, 4, 0.6);
+            opacity: 30.7;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 12px;
             text-align: center;
+            height: 25%;
+            position: absolute;
+            width: 100%;
+            bottom: -12px;
         }
         
-        .h4 {
-            font-family: Arial sans-serif;
-            color: rgb(216, 18, 18)
+        div h4:hover {
+            height: 40%;
+            background-color: rgba(70, 67, 67, 0.6);
+            cursor: pointer;
+        }
+        
+        div.sensei {
+            margin-top: 20px;
+            height: 170px;
+            width: 50px;
+        }
+        
+        div.genos {
+            margin-top: 20px;
+            height: 170px;
+            position: relative;
+        }
+        
+        .img1 {
+            background-image: url(imgs/sataima.jpg);
+            width: 170px;
+            height: 170px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            float: right;
+        }
+        
+        .img2 {
+            background-image: url(imgs/genos.png);
+            float: right;
+            width: 170px;
+            height: 170px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .flex {
+            display: flex;
+            width: 70%;
+        }
+        
+        .row-decoration {
+            padding: 6px;
+            margin-bottom: 6px;
+        }
+        
+        section.prueba div {
+            width: 80%;
+            align-content: center;
         }
     </style>
 </head>
@@ -55,20 +113,45 @@
         <header>
             <figure class="title"></figure>
         </header>
-        <section class="sataima">
-            <div class="red">
-                <h4>OPM (season1)</h4>
-            </div>
-            <div class="green">
-                <h4>OPM (season2)</h4>
-            </div>
-            <div class="red">
-                <h4>OPM (season3)</h4>
-            </div>
-            <div class="green">
-                <h4>OPM (season4)</h4>
-            </div>
-        </section>
+        <center>
+            <section class="sataima">
+                <div class="red">
+                    <h4>OPM (season1)</h4>
+                </div>
+                </div>
+                <div class="green">
+                    <h4>OPM (season2)</h4>
+                </div>
+                <div class="red">
+                    <h4>OPM (season3)</h4>
+                </div>
+                <div class="green">
+                    <h4>OPM (season4)</h4>
+                </div>
+            </section>
+
+
+            <section class="prueba">
+                <div>
+                    <div class="flex row-decoration">
+                        <div class="sensei img1">
+                        </div>
+                        <div>
+                            <h3>SATAIMA SENSEI</h3>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, libero quisquam dolorem sed ducimus officiis sapiente maxime reiciendis necessitatibus saepe rerum magnam, vero odio. Ipsum assumenda nihil porro eaque ratione.</P>
+                        </div>
+                    </div>
+                    <div class="flex row-decoration">
+                        <div class="genos img2">
+                        </div>
+                        <div>
+                            <h3>SATAIMA SENSEI</h3>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, libero quisquam dolorem sed ducimus officiis sapiente maxime reiciendis necessitatibus saepe rerum magnam, vero odio. Ipsum assumenda nihil porro eaque ratione.</P>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </center>
     </main>
 </body>
 

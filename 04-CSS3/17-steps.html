@@ -8,7 +8,21 @@
     <title>Steps</title>
     <link rel="stylesheet" href="CSS/mastercss3.css">
     <style>
-
+            figure {
+            margin: 40px auto;
+        }
+        
+        figure.steps1 {
+            background-image: url(imgs/steps.png);
+            width: calc(2000px / 10);
+            height: 509px;
+            animation: 1s animstep1 steps(5) infinite;
+        }
+        
+        @keyframes animstep1 {
+            100% {
+                background-position: -2000px;
+            }
     </style>
 </head>
 
@@ -18,7 +32,7 @@
             <h1><a href="index.html">⬅</a>Steps</h1>
         </header>
         <section>
-            <figure class="title">JAG</figure>
+            <figure class="steps1"></figure>
         </section>
     </main>
 </body>
