@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+html {
+    font-size: 16px;
+    @media screen and (max-width: 540px) font-size: 16px;
+}
+
 figure.title {
     background: url(../imgs/one-punh-man.png);
     background-repeat: no-repeat;
@@ -39,7 +45,7 @@ div h4 {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-size: 12px;
-    text-align: center;
+    text-align: center center;
     height: 25%;
     position: absolute;
     width: 100%;
@@ -55,7 +61,7 @@ div h4:hover {
 div.sensei {
     margin-top: 20px;
     height: 170px;
-    width: 50px;
+    width: 170px;
 }
 
 div.genos {
@@ -65,21 +71,13 @@ div.genos {
 }
 
 .img1 {
-    background-image: url(../imgs/sataima.jpg);
-    width: 170px;
-    height: 170px;
-    background-repeat: no-repeat;
     background-size: cover;
-    float: right;
+    float: left;
 }
 
 .img2 {
-    background-image: url(../imgs/genos.png);
-    float: right;
-    width: 170px;
-    height: 170px;
-    background-repeat: no-repeat;
     background-size: cover;
+    float: left;
 }
 
 .flex {
@@ -92,7 +90,9 @@ div.genos {
     margin-bottom: 6px;
 }
 
-section.prueba div {
-    width: 80%;
-    align-content: center;
+.contenedor {
+    background-color: white;
+    width: 725px;
+    height: 170px;
+    display: inline-block;
 }
