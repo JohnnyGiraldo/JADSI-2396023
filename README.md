@@ -1,16 +1,11 @@
 # adsi-2396023
-Repositorio de Análisis y desarrollo de sistemas de información (ADSI)
-
+> Repositorio de Analisis y Desarrollo de Sistemas de Información (ADSI)
 ---
-
-| Theme | Description | link 
-| ---- | ---- | ---- |
-| 1. Emmet    | Improves Workflow in HTML/CSS     | [Open folder](01-emmet/)     |
-| 2. HTML     | Markup Language (structure)       | [Open folder](02-html/)      |
-| 3. CSS      | Style Sheet (presentation)        | [Open folder](03-CSS/)       |
-| 4. Javascrip git pudh | Programming Language (clien-side) | [Open folder](04-javascrip/) | 
-
+| Theme | Description | Link
+| --- | --- | --- |
+| 1. Emmet      | Improves workflow in HTML/CSS     | [open folder](01-emmet/)      |
+| 2. HTML       | Markup Language (Structure)       | [open folder](02-html/)       |
+| 3. CSS        | Style Sheets (Presentation)       | [open folder](03-css/)        |
+| 4. Javascript | Programming Language (Clien-Side) | [open folder](04-javascript/) |
 ---
-
-
-
+![sena](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Sena_Colombia_logo.svg/1200px-Sena_Colombia_logo.svg.png)
