@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;500&family=Source+Sans+Pro:ital,wght@0,400;1,600&display=swap');
+
+body {
+    background: url(../imgs/js1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+    min-height: 100vh;
+    font-weight: 200;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    background-color: rgba(78, 78, 76, 0.46);
+    border-radius: 1rem;
+    width: 32rem;
+    height: 660px;
+}
+header h1 {
+    color: rgb(240, 240, 6);
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    text-align: center;
+}
+header h1 a:link,
+header h1 a:visited {
+    display: flex;
+    color: rgb(255, 238, 0);
+    position: absolute;
+    left: 3rem;
+    text-decoration: none;
+    transition: transform 0.2s ease-in;
+}
+header h1 a:hover {
+    transform: translateX(-4px);
+}
+header h1 a svg {
+    height: 2rem;
+    width: 2rem;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 0.8rem;
+    height: 515px;
+    overflow-y: auto;
+}
+nav li {
+    list-style: none;
+}
+nav li a:link,
+nav li a:visited {
+    background-color: rgb(255, 238, 0);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+    padding: 0.2rem;
+    transition: all 0.2s ease-in;
+    border-radius: 10px; 
+}
+nav li a i {
+    background-color: rgba(0, 0, 0, 0.597);
+    color: #ffffff;
+    border-bottom: 2px solid rgb(255, 238, 0);
+    border-radius: 10px;
+    padding: 0.6rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    font-style: normal;
+    margin-right: 0.8rem;
+    text-align: center;
+    width: 2rem;
+    height: 2rem;
+    transition: all 0.2s 0.2s ease-in;
+}
+nav li a:hover {
+    background-color: #fadd009a;
+    border-bottom: 2px solid white;
+}
+nav li a:hover b {
+    color: white;
+    transform: scale(1.23);
+}
+section {
+    padding: 1.2rem;
+}
+section h1,
+section h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    border-bottom: 2px dotted rgb(255, 255, 255);
+}
+li{
+    color: yellow;
+}
