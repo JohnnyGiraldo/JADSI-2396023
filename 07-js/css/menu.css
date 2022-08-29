@@ -15,8 +15,8 @@ body {
 main {
     background-color: rgba(78, 78, 76, 0.46);
     border-radius: 1rem;
-    width: 32rem;
-    height: 660px;
+    width: 29rem;
+    height: 722px;
 }
 header h1 {
     color: rgb(240, 240, 6);
@@ -42,7 +42,7 @@ header h1 a:hover {
 }
 header h1 a svg {
     height: 2rem;
-    width: 2rem;
+    width: 7rem;
 }
 nav {
     display: flex;
