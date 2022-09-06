@@ -70,6 +70,16 @@
         }
         main.dark div.methods button.off.active {
             background: url(imgs/vehicle/btn-off-dark-act.svg) no-repeat center;
+        
+        }
+        main.dark figure.parallax div.layer1 {
+            background: url(imgs/vehicle/carretera-black.svg) repeat-x;
+        }
+            main.dark figure.parallax div.layer2 {
+            background: url(imgs/vehicle/estrellas-black.svg) repeat-x;
+        }
+        main.dark figure.parallax div.layer3 {
+            background: url(imgs/vehicle/montañas-black.svg) repeat-x;
         }
 
         /* Light Mode */
@@ -299,6 +309,12 @@
                 figure.parallax.play.stop div.layer3 {
                     animation-play-state: paused;
                   }
+            
+                figure.parallax.reverse div.layer1,
+                figure.parallax.reverse div.layer2,
+                figure.parallax.reverse div.layer3 {
+                    animation-direction: reverse;
+                  }
 
     </style>
 </head>
@@ -430,9 +446,12 @@
         }
         })
         btn_bw.addEventListener('click', (event) => {
+            if (engine && !moveon)
             removeActives()
+            Vehicle.goBackward()
             btn_bw.classList.add('active')
-        })
+        }
+    )
         btn_off.addEventListener('click', (event) => {
             if (engine && !moveon){ 
             removeActives()
@@ -493,8 +512,16 @@
                 e_image.classList.remove('on')
                 engine = false
             }
-            static goforward() {
+            static goForward() {
                 parallax.classList.add('play')
+                parallax.classList.remove('reverse')
+                parallax.classList.remove('stop')
+                moveon = true
+            }
+        
+            static goBackward() {
+                parallax.classList.add('play')
+                parallax.classList.add('reverse')
                 parallax.classList.remove('stop')
                 moveon = true
             }
