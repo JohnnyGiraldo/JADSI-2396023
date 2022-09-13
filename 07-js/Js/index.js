@@ -1,18 +1,11 @@
-class Calculadora {
-    sumar(num1, num2) {
-        return num1 + num2;
-    }
 
-    restar(num1, num2) {
-        return num1 - num2;
-    }
 
-    dividir(num1, num2) {
-        return num1 / num2;
-    }
+const mycheckbox = document.querySelector('.mycheckbox')
+const main = document.querySelector('main')
 
-    multiplicar(num1, num2) {
-        return num1 * num2;
+mycheckbox.addEventListener('click', (e) => {
+    main.classList.toggle('light')
 
-        console.log(this.multiplicar);
- 
+  
+
+})

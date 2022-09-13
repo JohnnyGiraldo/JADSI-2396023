@@ -1,7 +1,7 @@
 * {
     font-family: 'fraunces', serif;
     font-weight: 100px;
-    color: #141414;
+    color: #fbef0a;
 }
 
 .container {
@@ -11,27 +11,99 @@
     height: 51vh;
 }
 
-/*  light theme black*/
+/*  black theme */
+/*
 
 .calculadora {
     background: url(../imgs/Calculator/bg-black-Calculator.svg) no-repeat center;
     display: grid;
     grid-template-columns: repeat(4, 65px);
-    grid-template-rows: 160px repeat(5, 65px);
+    grid-template-rows: 160px repeat(6, 65px);
     padding: 15px;
     border-radius: 30px;
     box-shadow: 5px 5px 10px #000000;
+    
 }
 
 button {
     cursor: pointer;
-    background-color: #8E8D8D;
     margin: 5px;
     padding: 0;
     border-radius: 30px;
     font-size: 1.5em;
     border: none;
     box-shadow: 5px 5px 10px -3px #f5f5f5f3;
+}
+.operador-division {
+  background: url(../imgs/Calculator/black-operador-division.svg) no-repeat center;
+  
+}
+.operador-c{
+  background: url(../imgs/Calculator/black-number-C.svg) no-repeat center;
+}
+.number-flecha {
+  background: url(../imgs/Calculator/black-number-flecha.svg) no-repeat center;
+}
+.operador-por {
+  background: url(../imgs/Calculator/black-operador-x.svg) no-repeat center;
+}
+.number3 {
+  background: url(../imgs/Calculator/black-number-3.svg) no-repeat center;
+}
+.number9 {
+  background: url(../imgs/Calculator/black-number-9.svg) no-repeat center;
+}
+.number7 {
+  background: url(../imgs/Calculator/black-number-7.svg) no-repeat center;
+}
+.number6 {
+  background: url(../imgs/Calculator/black-number-6.svg) no-repeat center;
+}
+.number5 {
+  background: url(../imgs/Calculator/black-number-5.svg) no-repeat center;
+}
+.number4 {
+  background: url(../imgs/Calculator/black-number-4.svg) no-repeat center;
+}
+.number3 {
+  background: url(../imgs/Calculator/black-number-3.svg) no-repeat center;
+}
+.number2 {
+  background: url(../imgs/Calculator/black-number-2.svg) no-repeat center;
+}
+.number1 {
+  background: url(../imgs/Calculator/black-number-1.svg) no-repeat center;
+}
+.number-0 {
+  background: url(../imgs/Calculator/black-number-0.svg) no-repeat center;
+}
+.number8 {
+  background: url(../imgs/Calculator/black-number-8.svg) no-repeat center;
+}
+.number2 {
+  background: url(../imgs/Calculator/white-number-2.svg) no-repeat center;
+}
+.number-punto {
+  background: url(../imgs/Calculator/black-number-punto.svg) no-repeat center;
+}
+.operador-igual {
+  background: url(../imgs/Calculator/black-operador-igual.svg) no-repeat center;
+}
+.number-igual {
+  background: url(../imgs/Calculator/black-operador-igual.svg) no-repeat center;
+}
+.operador-mas {
+  background: url(../imgs/Calculator/black-operador-mas.svg) no-repeat center;
+}
+.operador-menos {
+  background: url(../imgs/Calculator/black-operador-menos.svg) no-repeat center;
+}
+.operador-c {
+  grid-column: span 2;
+}
+
+button.operador-igual {
+    grid-row: span 2;
 }
 button:active {
     background-color: #ede3e3;
@@ -40,30 +112,118 @@ button:active {
 button:focus {
     outline: none;
 }
+*/
+    /* light theme */
+
+   .calculadora {
+      background: url(../imgs/Calculator/bg-white-Calculator\,svg.svg) no-repeat center;
+      display: grid;
+      grid-template-columns: repeat(4, 65px);
+      grid-template-rows: 160px repeat(6, 65px);
+      padding: 15px;
+      border-radius: 30px;
+      box-shadow: 5px 5px 10px #000000;
+     
+  }
+    button {
+      cursor: pointer;
+      margin: 5px;
+      padding: 0;
+      border-radius: 30px;
+      font-size: 1.5em;
+      border: none;
+      box-shadow: 5px 5px 10px -3px #f5f5f5f3;
+  }
+  .operador-division {
+    background: url(../imgs/Calculator/white-operador-division.svg) no-repeat center;
+    
+  }
+  .operador-c{
+    background: url(../imgs/Calculator/white-white-number-C.svg) no-repeat center;
+  }
+  .number-flecha {
+    background: url(../imgs/Calculator/white-number-flecha.svg) no-repeat center;
+  }
+  .operador-por {
+    background: url(../imgs/Calculator/white-operador-por.svg) no-repeat center;
+  }
+  .number3 {
+    background: url(../imgs/Calculator/white-number-3.svg) no-repeat center;
+  }
+  .number9 {
+    background: url(../imgs/Calculator/white-number-9.svg) no-repeat center;
+  }
+  .number7 {
+    background: url(../imgs/Calculator/white-number-7.svg) no-repeat center;
+  }
+  .number6 {
+    background: url(../imgs/Calculator/white-number-6.svg) no-repeat center;
+  }
+  .number5 {
+    background: url(../imgs/Calculator/white-number-5.svg) no-repeat center;
+  }
+  .number4 {
+    background: url(../imgs/Calculator/white-number-4.svg) no-repeat center;
+  }
+  .number3 {
+    background: url(../imgs/Calculator/white-number-3.svg) no-repeat center;
+  }
+  .number2 {
+    background: url(../imgs/Calculator/white-number-2.svg) no-repeat center;
+  }
+  .number1 {
+    background: url(../imgs/Calculator/white-number-1.svg) no-repeat center;
+  }
+  .number-0 {
+    background: url(../imgs/Calculator/white-number-0.svg) no-repeat center;
+  }
+  .number8 {
+    background: url(../imgs/Calculator/white-number-8.svg) no-repeat center;
+  }
+  .number2 {
+    background: url(../imgs/Calculator/white-number-2.svg) no-repeat center;
+  }
+  .number-punto {
+    background: url(../imgs/Calculator/white-number-punto.svg) no-repeat center;
+  }
+  .operador-igual {
+    background: url(../imgs/Calculator/white-operador-igual.svg) no-repeat center;
+  }
+  .operador-mas {
+    background: url(../imgs/Calculator/white-operador-mas.svg) no-repeat center;
+  }
+  .operador-menos {
+    background: url(../imgs/Calculator/white-operador-menos.svg) no-repeat center;
+  }
+  .operador-c {
+    grid-column: span 2;
+  }
+  
+  button.operador-igual {
+      grid-row: span 2;
+  }
+  button:active {
+      background-color: #ede3e3;
+  }
+  
+  button:focus {
+      outline: none;
+}
 .display {
+  background: url(../imgs/Calculator/white-pantalla.svg) no-repeat center;
     grid-column: 1 / -1;
     padding: 16px;
     display: flex;
     margin: 0;
     flex-direction: column;
     align-items: flex-end;
-    background-color: #000000;
+   
     border-radius: 30px;
     justify-content: space-between;
     word-break: break-all;
-}
-.number_c {
-  grid-column: span 2;
-}
-
-button.operador_igual {
-    grid-row: span 2;
-  
-}
-
-
+  }
     .mycheckbox input:checked ~ span::after{
-        background: #000000;
+        background: white;
         transform: scale(0.85) translate(35px);
       }
       .mycheckbox input:checked ~ span .on{
@@ -133,6 +293,18 @@ button.operador_igual {
       }
 
 h3 {
-    color:  #000000;
+    color:  #F5F5F5;
     font-size: 12px;
+}
+/* light-mode */
+
+main.light {
+  background: url(../imgs/Calculator/bg-white-Calculator\,svg.svg) no-repeat center;
+}
+
+/* Dark-mode */
+
+main.dark {
+  background: url(../imgs/Calculator/bg-black-Calculator.svg) no-repeat center;
+  transition: background 0.5s ease-in;
 }

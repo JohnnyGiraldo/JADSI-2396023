@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
 
 body {
-    background: url(../imgs/Javascript-1.jpg) no-repeat center;
+    background: url(../imgs/javascript.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Raleway', sans-serif;
@@ -41,8 +41,8 @@ header h1 a:hover {
     transform: translateX(-4px);
 }
 header h1 a svg {
-    height: 2rem;
-    width: 7rem;
+    height: 3rem;
+    width: 3rem;
 }
 nav {
     display: flex;
