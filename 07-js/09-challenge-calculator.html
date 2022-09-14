@@ -7,13 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenge Calculator</title>
     <link rel="stylesheet" href="css/menu.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-    <script src="../07-js/Js/index.js" type="text/javascript"></script>
-      <main>
+    <main class="light">
         <header>
             <h1><a href="index.html"> <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
                         fill="currentColor">
@@ -26,38 +24,37 @@
             <div class="container">
                 <div class="calculadora">
                     <div class="display">
-                       <div id="valor"></div>
+                        <output class="operation"></output>
+                        <output class="result"></output>
                     </div>
-
-                        <label class="mycheckbox">
-                        <input type="checkbox" name="">
-                        <span></span>
-                      </label>
-                     <h3>Swich to light Theme</h3>
-                     <br>
-                    <button class="operador-division"></button>
-                    <button class="operador-c"></button>
-                    <button class="number-flecha"></button>
-                    <button class="operador-por"></button>
-                    <button class="number7"></button>
-                    <button class="number8"></button>
-                    <button class="number9"></button>
-                    <button class="operador-menos"></button>
-                    <button class="number4"></button>
-                    <button class="number5"></button>
-                    <button class="number6"></button>
-                    <button class="operador-mas"></button>
-                    <button class="number1"></button>
-                    <button class="number2"></button>
-                    <button class="number3"></button>
-                    <button class="operador-igual"></button>
+                    <button class="mycheckbox">
+                    </button>
+                    <h3>Swich to light Theme</h3>
                     <br>
-                    <button class="number-0"></button>
-                    <button class="number-punto"></button>
-                    </div>
+                    <button class="divi" data-opr="/"></button>
+                    <button class="clear"></button>
+                    <button class="back"></button>
+                    <button class="prod" data-opr="*"></button>
+                    <button class="num7" data-num="7"></button>
+                    <button class="num8" data-num="8"></button>
+                    <button class="num9" data-num="9"></button>
+                    <button class="subs" data-opr="-"></button>
+                    <button class="num4" data-num="4"></button>
+                    <button class="num5" data-num="5"></button>
+                    <button class="num6" data-num="6"></button>
+                    <button class="plus" data-opr="+"></button>
+                    <button class="num1" data-num="1"></button>
+                    <button class="num2" data-num="2"></button>
+                    <button class="num3" data-num="3"></button>
+                    <button class="equal"></button>
+                    <br>
+                    <button class="n0" data-num="0"></button>
+                    <button class="punto" data-num="."></button>
+                </div>
             </div>
         </section>
     </main>
- </body>
+    <script src="../07-js/Js/index.js" type="text/javascript"></script>
+</body>
 
 </html>
