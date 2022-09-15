@@ -1,7 +1,7 @@
 * {
   font-family: 'fraunces', serif;
   font-weight: 100px;
-  color: #fbef0a;
+  color: #0b0b0b;
 }
 
 .container {
@@ -14,7 +14,7 @@
 /* light-mode */
 
 main.light section div.container div.calculadora {
-  background: url(../imgs/Calculator/bg-white-Calculator.svg) no-repeat center;
+  background: url(../imgs/Calculator/white-Swich_to_light_Team.svg) no-repeat center;
   display: grid;
   grid-template-columns: repeat(4, 65px);
   grid-template-rows: 160px repeat(6, 65px);
@@ -22,6 +22,9 @@ main.light section div.container div.calculadora {
   border-radius: 30px;
   box-shadow: 5px 5px 10px #000000;
 
+}
+main.light section div.container label.mycheckbox {
+  background: url(../imgs/Calculator/black-Swich_to_light_Team.svg) no-repeat center;
 }
 
 main.light section div.container div.calculadora button.divi {
@@ -100,17 +103,31 @@ main.light section div.container div.calculadora button.plus {
 main.light section div.container div.calculadora button.subs {
   background: url(../imgs/Calculator/white-operador-menos.svg) no-repeat center;
 }
-
+main.light section div.container div.display  {
+  background: url(../imgs/Calculator/white-pantalla.svg) no-repeat center;
+  grid-column: 1 / -1;
+  padding: 16px;
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  border-radius: 30px;
+  justify-content: space-between;
+  word-break: break-all;
+}
 /* Dark-mode */
 main.dark section div.container div.calculadora {
   background: url(../imgs/Calculator/bg-black-Calculator.svg) no-repeat center;
-  transition: background 0.5s ease-in;
+  transition: background-color 0.5s ease-in;
   display: grid;
   grid-template-columns: repeat(4, 65px);
   grid-template-rows: 160px repeat(6, 65px);
   padding: 15px;
   border-radius: 30px;
   box-shadow: 5px 5px 10px #000000;
+}
+main.dark section div.container label.mycheckbox {
+  background: url(../imgs/Calculator/black-Swich_to_light_Team.svg) no-repeat center;
 }
 
 main.dark section div.container div.calculadora button.divi {
@@ -193,7 +210,18 @@ main.dark section div.container div.calculadora button.plus {
 main.dark section div.container div.calculadora button.subs {
   background: url(../imgs/Calculator/black-operador-menos.svg) no-repeat center;
 }
-
+main.dark section div.container div.display  {
+  background: url(../imgs/Calculator/black-pantalla.svg) no-repeat center;
+  grid-column: 1 / -1;
+  padding: 16px;
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  border-radius: 30px;
+  justify-content: space-between;
+  word-break: break-all;
+}
 
 button {
   cursor: pointer;
@@ -202,7 +230,7 @@ button {
   border-radius: 30px;
   font-size: 1.5em;
   border: none;
-  box-shadow: 5px 5px 10px -3px #f5f5f5f3;
+ 
 }
 
 .clear {
@@ -221,41 +249,27 @@ button:focus {
   outline: none;
 }
 
-/* light theme */
+h3 {
+  color: #F5F5F5;
+  font-size: 12px;     
 
-
-
-.display {
-  background: url(../imgs/Calculator/white-pantalla.svg) no-repeat center;
-  grid-column: 1 / -1;
-  border: 5px rgb(248, 5, 5);
-  padding: 16px;
-  display: flex;
-  margin: 0;
-  flex-direction: column;
-  align-items: flex-end;
-
-  border-radius: 30px;
-  justify-content: space-between;
-  word-break: break-all;
+  /* el css del boton checkbox*/  
 }
-
-.mycheckbox input:checked~span::after {
-  background: white;
+.mycheckbox input:checked ~ span::after{
+  background: rgb(12, 167, 12);
   transform: scale(0.85) translate(35px);
 }
-
-.mycheckbox input:checked~span .on {
+.mycheckbox input:checked ~ span .on{
   transform: translate(30px);
   opacity: 1;
 }
 
-.mycheckbox input:checked~span .off {
+.mycheckbox input:checked ~ span .off{
   transform: translate(30px);
   opacity: 0;
 }
 
-.mycheckbox input:checked~span .on-bell {
+.mycheckbox input:checked ~ span .on-bell{
   transform: translate(31px);
 }
 
@@ -265,24 +279,24 @@ button:focus {
 
 .mycheckbox span {
   display: inline-block;
-  width: 47px;
-  height: 22px;
+  width: 60px;
+  height: 30px;
   border-radius: 30px;
   background: rgb(187, 186, 186);
   cursor: pointer;
-  box-shadow: 5px 5px 10px #F5F5F550;
-  position: relative;
+  box-shadow: inset 0px 0px 2px rgb(15, 15, 15);
 
+  position: relative;
 }
 
 .mycheckbox span::after {
   content: "";
   display: block;
-  width: 27px;
-  height: 22px;
+  width: 30px;
+  height: 30px;
   transform: scale(0.85);
   border-radius: 30px;
-  background: #000000;
+  background: rgb(248, 22, 22);
   transition: 0.5s;
   box-shadow: inset 0px 0px 2px rgb(37, 37, 37);
 }
@@ -301,18 +315,10 @@ button:focus {
   left: 7px;
   top: 7px;
 }
-
-.mycheckbox .off {
-  left: 9px;
-  top: 7px;
+output.result {
+  background-color: aqua;
+  height: 60px;
 }
-
-.mycheckbox .off-bell {
-  left: 5px;
-}
-
-h3 {
-  color: #F5F5F5;
-  font-size: 12px;
-
+.operation {
+  background-color: aqua;
 }
