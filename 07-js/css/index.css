@@ -1,7 +1,7 @@
 * {
   font-family: 'fraunces', serif;
   font-weight: 100px;
-  color: #0b0b0b;
+  color: #fcf9f9;
 }
 
 .container {
@@ -320,11 +320,15 @@ h3 {
 .mycheckbox {
   grid-column: span 2;
 }
-output.result {
-  background-color: aqua;
-  height: 60px;
+main.light section div.container div.calculadora output.operation {
+  font-size: 30px;
 }
-.operation {
-  background-color: aqua;
-  font-size: 4rem;
+main.dark section div.container div.calculadora output.result {
+  font-size: 30px;
+}
+main.dark section div.container div.calculadora output.operation {
+  font-size: 30px;
+}
+main.light section div.container div.calculadora output.result{
+  font-size: 30px;
 }
