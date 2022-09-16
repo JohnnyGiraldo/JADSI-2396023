@@ -1,39 +1,16 @@
 <svg width="155" height="56" viewBox="0 0 155 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g opacity="0.5" filter="url(#filter0_d_11_85)">
-<g filter="url(#filter1_d_11_85)">
-<rect width="155" height="56" rx="28" fill="#8E8D8D"/>
-</g>
-<g filter="url(#filter2_d_11_85)">
+<g filter="url(#filter0_d_114_4)">
+<rect width="155" height="56" rx="28" fill="white"/>
 <path d="M84.544 34.592C84.52 35.42 84.28 36.254 83.824 37.094C83.38 37.922 82.738 38.678 81.898 39.362C81.058 40.046 80.044 40.592 78.856 41C77.668 41.42 76.324 41.63 74.824 41.63C72.292 41.63 70.108 41.078 68.272 39.974C66.448 38.858 65.038 37.322 64.042 35.366C63.046 33.398 62.548 31.136 62.548 28.58C62.548 26.648 62.842 24.872 63.43 23.252C64.018 21.62 64.846 20.204 65.914 19.004C66.982 17.804 68.242 16.874 69.694 16.214C71.146 15.554 72.724 15.224 74.428 15.224C75.676 15.224 76.69 15.356 77.47 15.62C78.25 15.872 78.856 16.13 79.288 16.394C79.732 16.658 80.062 16.79 80.278 16.79C80.542 16.79 80.74 16.676 80.872 16.448C81.004 16.22 81.136 15.998 81.268 15.782C81.412 15.554 81.61 15.44 81.862 15.44C82.018 15.44 82.15 15.488 82.258 15.584C82.366 15.68 82.456 15.848 82.528 16.088L84.436 22.28C84.508 22.496 84.496 22.688 84.4 22.856C84.304 23.024 84.142 23.126 83.914 23.162C83.71 23.198 83.524 23.174 83.356 23.09C83.2 22.994 83.074 22.838 82.978 22.622C82.318 21.182 81.58 20.024 80.764 19.148C79.96 18.26 79.072 17.618 78.1 17.222C77.128 16.814 76.06 16.61 74.896 16.61C73.72 16.61 72.634 16.868 71.638 17.384C70.654 17.9 69.796 18.638 69.064 19.598C68.332 20.558 67.762 21.71 67.354 23.054C66.946 24.398 66.742 25.898 66.742 27.554C66.742 30.062 67.15 32.198 67.966 33.962C68.782 35.726 69.892 37.07 71.296 37.994C72.7 38.906 74.296 39.362 76.084 39.362C77.884 39.362 79.402 38.942 80.638 38.102C81.886 37.25 82.816 36.074 83.428 34.574C83.536 34.37 83.644 34.232 83.752 34.16C83.872 34.088 84.004 34.064 84.148 34.088C84.28 34.1 84.376 34.148 84.436 34.232C84.508 34.316 84.544 34.436 84.544 34.592Z" fill="black"/>
 </g>
-</g>
 <defs>
-<filter id="filter0_d_11_85" x="0" y="0" width="155" height="56" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d_114_4" x="0" y="0" width="155" height="56" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.960784 0 0 0 0 0.960784 0 0 0 0 0.960784 0 0 0 1 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_11_85"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_11_85" result="shape"/>
-</filter>
-<filter id="filter1_d_11_85" x="0" y="0" width="155" height="56" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.960784 0 0 0 0 0.960784 0 0 0 0 0.960784 0 0 0 1 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_11_85"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_11_85" result="shape"/>
-</filter>
-<filter id="filter2_d_11_85" x="62.548" y="15.224" width="21.996" height="26.406" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.960784 0 0 0 0 0.960784 0 0 0 0 0.960784 0 0 0 1 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_11_85"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_11_85" result="shape"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_114_4"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_114_4" result="shape"/>
 </filter>
 </defs>
 </svg>

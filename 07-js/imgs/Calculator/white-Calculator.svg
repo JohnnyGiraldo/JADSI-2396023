@@ -1,6 +1,6 @@
 <svg width="380" height="660" viewBox="0 0 380 660" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_1_2)">
-<rect x="5" y="5" width="360" height="640" rx="30" fill="white"/>
+<rect x="5" y="5" width="360" height="640" rx="30" fill="#E3DBDB" fill-opacity="0.87" shape-rendering="crispEdges"/>
 </g>
 <defs>
 <filter id="filter0_d_1_2" x="0" y="0" width="380" height="660" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
