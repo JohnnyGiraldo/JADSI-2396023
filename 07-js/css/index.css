@@ -14,7 +14,7 @@
 /* light-mode */
 
 main.light section div.container div.calculadora {
-  background: url(../imgs/Calculator/white-Swich_to_light_Team.svg) no-repeat center;
+  background: url(../imgs/Calculator/bg-white-Calculator.svg) no-repeat center;
   display: grid;
   grid-template-columns: repeat(4, 65px);
   grid-template-rows: 160px repeat(6, 65px);
@@ -22,9 +22,6 @@ main.light section div.container div.calculadora {
   border-radius: 30px;
   box-shadow: 5px 5px 10px #000000;
 
-}
-main.light section div.container label.mycheckbox {
-  background: url(../imgs/Calculator/black-Swich_to_light_Team.svg) no-repeat center;
 }
 
 main.light section div.container div.calculadora button.divi {
@@ -126,9 +123,6 @@ main.dark section div.container div.calculadora {
   border-radius: 30px;
   box-shadow: 5px 5px 10px #000000;
 }
-main.dark section div.container label.mycheckbox {
-  background: url(../imgs/Calculator/black-Swich_to_light_Team.svg) no-repeat center;
-}
 
 main.dark section div.container div.calculadora button.divi {
   background: url(../imgs/Calculator/black-operador-division.svg) no-repeat center;
@@ -176,7 +170,7 @@ main.dark section div.container div.calculadora button.num3 {
 }
 
 main.dark section div.container div.calculadora button.num2 {
-  background: url(../imgs/Calculator/black-number-2.svg) no-repeat center;
+  background: url(../imgs/Calculator/white-number-2.svg) no-repeat center;
 }
 
 main.dark section div.container div.calculadora button.num1 {
@@ -314,6 +308,9 @@ h3 {
   opacity: 0;
   left: 7px;
   top: 7px;
+}
+.mycheckbox {
+  grid-column: span 2;
 }
 output.result {
   background-color: aqua;
