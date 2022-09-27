@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick & Morty API Rest</title>
+    <style>
+        body {
+             background-color: #ccc;
+             color: #777575;
+             
+        }
+        ul.characters {
+            grid-template-columns: repeat(3, 1fr);
+            display: grid;
+            gap: 1rem;
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        @media screen and (max-width:1024px){
+            ul.characters{
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+        ul.characters li {
+            background-color: rgb(37, 35, 35);
+        }
+        ul.characters.figure{
+            border-radius: 20px;
+        }
+        ul.characters .figure{
+            border-radius: 20px;
+        }
+        ul.characters h2{
+            color:blue;
+            font-size: 34px;
+            background-color: rgb(208, 255, 0);
+            border-radius: 30px;
+        }
+        ul.characters .t {
+font-size: 2rem;
+margin-bottom: 0px;
+margin-top: 4px;
+        }
+        ul.characters button{
+            background: #666;
+            color: white;
+            font-size: 1.2rem;
+            border-radius: 20px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="characters"></ul>
+
+    <script>
+        const characters = document.querySelector('.characters')
+
+        const btnShows    = document.querySelectorAll('.btnShow')
+
+
+        async function getCharacters() {
+            for (let i = 1; i <= 120; i++) {
+            let resp = await fetch('https://rickandmortyapi.com/api/character/' + i)
+            let char = await resp.json()
+            console.log(char)
+            characters.innerHTML += `<li> 
+                                            <h2 class="text">${char.id}:  ${char.name}  </h2>
+                                            <img class="figure" src="${char.image}">
+                                            <h4 class"t"> Genero: ${char.gender}</h4>
+                                            <h4 class="t">Estado: ${char.status}</h4>
+                                            <button data-id='$${char.id}' class='btnshow'> show + </button>
+                                            </li>`
+            if (i == 120) {
+                addClicksEvents()
+            }                                
+          }
+        }
+        function addClicksEvents () {
+            const btnShows   = document.querySelectorAll('.btnShow')
+            btnShows.forEach(element => {
+                element.addEventListener('click' , (e) => {
+                    e.preventDefault()
+                    alert(element.database.id)
+                })
+            })
+        }
+        
+        getCharacters()
+    </script>
+</body>
+</html>
